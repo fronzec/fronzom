@@ -1,0 +1,32 @@
+{
+  "name": "fronzom",
+  "version": "0.1.0",
+  "description": "Traductor al idioma fronzom",
+  "main": "dist/src/fronzom.js",
+  "scripts": {
+    "build": "babel src/fronzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fronzec/fronzom.git"
+  },
+  "keywords": [
+    "fronzom",
+    "javascript",
+    "fundamentos",
+    "js"
+  ],
+  "author": "fronzec <efloresambrosio@gmail.com> (https://eflores.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fronzec/fronzom/issues"
+  },
+  "homepage": "https://github.com/fronzec/fronzom#readme",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1"
+  }
+}
